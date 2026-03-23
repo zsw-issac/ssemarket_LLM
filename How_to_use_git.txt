@@ -2,3 +2,4 @@
 2.git commit -m "ha"
 3.git push -u origin main
 4.如果github上的版本更新, git pull origin main
+5.在vscode上操作,就先在vscode打开该文件夹,进行修改,在左侧写上提交信息,commit&push即可
