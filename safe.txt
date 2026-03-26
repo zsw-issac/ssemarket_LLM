@@ -1,0 +1,1 @@
+对于特殊信息例如token,api_key等,可以使用在根目录创建.env文件,再创建.gitignore文件避免这种特殊文件传到github

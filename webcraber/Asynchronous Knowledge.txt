@@ -1,0 +1,4 @@
+协程: 也就是函数,但
+await: 遇到可能会有长时间网络请求等情况,就要加上await
+限制异步请求数避免被封: semaphore
+有多个协程要同时运行(也就是异步): 1)可以 await asyncio.gather(detail_task, comments_task); 2)也可以创建多个task; 3)注意多个await无法实现异步
